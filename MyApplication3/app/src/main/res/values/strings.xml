@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Students_score</string>
+    <string name="calculate">Calculate</string>
+    <string name="score_1">Score 1</string>
+    <string name="score_2">Score 2</string>
+    <string name="score_3">Score 3</string>
+    <string name="weighted_average">Weighted Average</string>
+    <string name="simple_average">Simple Average</string>
+</resources>
