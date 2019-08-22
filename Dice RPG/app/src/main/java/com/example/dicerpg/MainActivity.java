@@ -104,7 +104,7 @@ private SeekBar seekFaces, seekDice;
 
 
 
-        textSum.setText(String.format("Sum - %d", result));
+        textSum.setText(String.format("soma - %d", result));
 
 
 
@@ -120,7 +120,7 @@ private SeekBar seekFaces, seekDice;
 
         for (int i = 0; i < var.length; i++) {
 
-            textResult.append(String.format("Dice %d is %d \n", i+1, var[i]));
+            textResult.append(String.format("dado %d é %d \n", i+1, var[i]));
 
         }
 
