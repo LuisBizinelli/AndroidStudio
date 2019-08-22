@@ -14,14 +14,25 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Quantos jogadores?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
     <Button
-        android:id="@+id/Jogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="PLAY!"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="Jogar"
+        />
 
     <TextView
         android:layout_width="match_parent"
