@@ -24,6 +24,50 @@
         android:textStyle="bold"
         />
 
+    <SeekBar
+        android:id="@+id/seekPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="13"
+        android:min="1"
+        />
+
+    <TextView
+        android:id="@+id/textJogador"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Quantos dados? (MIN - 5)"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <SeekBar
+        android:id="@+id/seekDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="10"
+        android:min="5"
+        />
+
+    <TextView
+        android:id="@+id/textDado"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,10 +82,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="vencedor:"
-        android:layout_margin="60dp"
         android:textSize="45sp"
         android:textStyle="bold"
-        android:id="@+id/Vencedor"
+        android:id="@+id/textVencedor"
         />
 
     <TextView
@@ -51,19 +94,8 @@
         android:layout_margin="1dp"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:id="@+id/Dados"
+        android:id="@+id/textDados"
         />
-
-
-
-
-
-
-
-
-
-
-
 
 
 </LinearLayout>
