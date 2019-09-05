@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 frase = "muito bem, voce não tão idiota.";
                 break;
             case 2:
+                frase = "quase lá, so falta uma.";
+                break;
+            case 3:
                 frase = "parabens, voce é um genio da cultura inutil.";
                 break;
         }
