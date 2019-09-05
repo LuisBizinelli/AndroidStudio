@@ -1,6 +1,7 @@
 package com.example.listopet;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,13 @@ public class DisciplinaAdapter extends ArrayAdapter<Disciplina> {
         TextView textDisciplina = mView.findViewById(R.id.textDisciplina);
         TextView textNota = mView.findViewById(R.id.textNota);
         Disciplina disciplina = getItem(position);
+
+        if (disciplina.getNota() >=7.0)
+            textNota.setTextColor(Color.BLUE);
+        else if (disciplina.getNota() >= 4.0 && disciplina.getNota()<7.0)
+            textNota.setTextColor(Color.MAGENTA);
+        else
+            textNota.setTextColor(Color.RED);
         textDisciplina.setText(disciplina.getNome());
         textNota.setText(String.valueOf(disciplina.getNota()));
         return mView;
